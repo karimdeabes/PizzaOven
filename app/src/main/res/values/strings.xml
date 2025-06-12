@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pizza Oven</string>
+    <string name="customize_your_pizza">CUSTOMIZE YOUR PIZZA</string>
+    <string name="add_to_cart">Add to cart</string>
+</resources>

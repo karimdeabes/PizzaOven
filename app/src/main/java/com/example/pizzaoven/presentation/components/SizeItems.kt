@@ -23,8 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.pizzaoven.presentation.Size
-
+import com.example.pizzaoven.presentation.viewmodel.state.Size
 
 @Composable
 fun SizeItems(

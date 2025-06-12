@@ -1,4 +1,4 @@
-package com.example.pizzaoven.presentation
+package com.example.pizzaoven.presentation.screen
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateFloatAsState
@@ -26,11 +26,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.pizzaoven.R
+import com.example.pizzaoven.presentation.viewmodel.PizzaViewModel
 import com.example.pizzaoven.presentation.components.AddToCartBox
 import com.example.pizzaoven.presentation.components.ToppingItems
 import com.example.pizzaoven.presentation.components.PizzaPlateWithBread
 import com.example.pizzaoven.presentation.components.SizeItems
 import com.example.pizzaoven.presentation.components.PizzaAppBar
+import com.example.pizzaoven.presentation.viewmodel.state.Size
 import org.koin.androidx.compose.koinViewModel
 
 @Composable

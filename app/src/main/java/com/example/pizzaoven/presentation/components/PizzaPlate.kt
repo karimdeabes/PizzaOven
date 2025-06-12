@@ -28,8 +28,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.example.pizzaoven.R
-import com.example.pizzaoven.presentation.PizzaUiState
-import com.example.pizzaoven.presentation.Topping
+import com.example.pizzaoven.presentation.viewmodel.state.PizzaUiState
+import com.example.pizzaoven.presentation.viewmodel.state.Topping
 import kotlin.random.Random
 
 @Composable

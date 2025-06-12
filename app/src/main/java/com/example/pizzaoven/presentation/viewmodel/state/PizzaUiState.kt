@@ -1,7 +1,6 @@
-package com.example.pizzaoven.presentation
+package com.example.pizzaoven.presentation.viewmodel.state
 
 import com.example.pizzaoven.R
-
 
 data class PizzaUiState(
     val selectedSize: Size = Size.MEDIUM,
@@ -89,5 +88,3 @@ enum class Topping(
             )
     )
 }
-
-

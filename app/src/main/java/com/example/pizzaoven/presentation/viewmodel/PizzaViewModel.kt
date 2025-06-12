@@ -1,6 +1,9 @@
-package com.example.pizzaoven.presentation
+package com.example.pizzaoven.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.example.pizzaoven.presentation.viewmodel.state.PizzaUiState
+import com.example.pizzaoven.presentation.viewmodel.state.Size
+import com.example.pizzaoven.presentation.viewmodel.state.Topping
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
